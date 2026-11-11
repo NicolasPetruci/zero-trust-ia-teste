@@ -1,0 +1,18 @@
+{
+  "name": "zt-llm-gateway",
+  "version": "0.1.0",
+  "description": "Gateway Zero Trust na frente de um modelo de linguagem local: sessão verificada, escopo, assinatura entre serviços e auditoria.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "demo": "tsx src/demo.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}
